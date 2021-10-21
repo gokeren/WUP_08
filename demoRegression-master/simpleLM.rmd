@@ -61,3 +61,7 @@ summary.lm(simp)
 ```
 
 This model seems to be much better than the previous ones because the residual standard error is smaller and the adjusted R-squared is higher.
+
+In conclusion, we looked for a model that would be best for predicting the length of the bear based on a different variable in our data set. At first we tested Neck which gave us a residual standard error of 5.376 and an adjusted R-squared of 0.7476. When we tested Weight, we got similar results as when we tested Neck. We tested Chest size and Head length, and both were better models for predicting the length of the bear. However, choosing Head length(HEADLEN) yielded the best model as it had the lowest error out of all models(4.235) and a higher adjusted r-squared(0.8434).
+
+
